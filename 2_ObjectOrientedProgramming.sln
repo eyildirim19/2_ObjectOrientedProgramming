@@ -19,13 +19,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_2_Encapsulation_3", "_2_En
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_3_Constructor", "_3_Constructor\_3_Constructor.csproj", "{F4872246-269B-4A9E-80D2-5A0AC91FD0B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_Inheritance", "_4_Inheritance\_4_Inheritance.csproj", "{BF44EF6B-F246-490B-9396-6750629FF1DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_4_Inheritance", "_4_Inheritance\_4_Inheritance.csproj", "{BF44EF6B-F246-490B-9396-6750629FF1DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_Inheritance2", "_4_Inheritance2\_4_Inheritance2.csproj", "{1EE144DD-2B67-4A73-BF0F-3CD3593FC20D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_4_Inheritance2", "_4_Inheritance2\_4_Inheritance2.csproj", "{1EE144DD-2B67-4A73-BF0F-3CD3593FC20D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_4_Inheritance3", "_4_Inheritance3\_4_Inheritance3.csproj", "{65F5006B-6A05-4238-93AE-53BB3E1E0002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_4_Inheritance3", "_4_Inheritance3\_4_Inheritance3.csproj", "{65F5006B-6A05-4238-93AE-53BB3E1E0002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_Polimorphism", "5_Polimorphism\5_Polimorphism.csproj", "{AC9ED62E-E7AD-4B23-8840-81631B07ABB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_5_Polimorphism", "5_Polimorphism\_5_Polimorphism.csproj", "{AC9ED62E-E7AD-4B23-8840-81631B07ABB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_5_OopTekrar", "_5_OopTekrar\_5_OopTekrar.csproj", "{42B03962-2E3B-406C-9A4C-B0CB0BD7C30D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_6_AbstractClass", "_6_AbstractClass\_6_AbstractClass.csproj", "{8054EBD0-5169-42EB-AE19-87879740D8CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_6_AbstractMember", "_6_AbstractMember\_6_AbstractMember.csproj", "{8918E1E2-A76A-42F2-A649-F76CA2B96632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +87,18 @@ Global
 		{AC9ED62E-E7AD-4B23-8840-81631B07ABB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC9ED62E-E7AD-4B23-8840-81631B07ABB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC9ED62E-E7AD-4B23-8840-81631B07ABB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B03962-2E3B-406C-9A4C-B0CB0BD7C30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B03962-2E3B-406C-9A4C-B0CB0BD7C30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B03962-2E3B-406C-9A4C-B0CB0BD7C30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B03962-2E3B-406C-9A4C-B0CB0BD7C30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8054EBD0-5169-42EB-AE19-87879740D8CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8054EBD0-5169-42EB-AE19-87879740D8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8054EBD0-5169-42EB-AE19-87879740D8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8054EBD0-5169-42EB-AE19-87879740D8CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8918E1E2-A76A-42F2-A649-F76CA2B96632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8918E1E2-A76A-42F2-A649-F76CA2B96632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8918E1E2-A76A-42F2-A649-F76CA2B96632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8918E1E2-A76A-42F2-A649-F76CA2B96632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
