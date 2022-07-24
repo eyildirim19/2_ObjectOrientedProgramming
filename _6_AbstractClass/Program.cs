@@ -15,12 +15,19 @@
 
             Personel p1 = mh; // p1 mh'nin referansını tutuyor...
 
-            // Personel sınıfımız Abstract olduğu için bu sınıftan instance alınamaz...
+            //Personel p = new Personel();  // Personel sınıfımız Abstract olduğu için bu sınıftan instance alınamaz...
 
-            //Personel p = new Personel();
-        
+
+            Console.WriteLine(yz.KimeBagli());
+            Console.WriteLine(yz1.KimeBagli());
+            Console.WriteLine(mh.KimeBagli());
+
+            Departman dep = new Departman();
+            //OdemeYap(dep); // dep nesnesi Personel tipinde olmadığı için OdemeYap metoduna parametre veremez...
 
             OdemeYap(mh);
+            OdemeYap(yz1);
+            OdemeYap(yz);
 
             Console.ReadKey();
 

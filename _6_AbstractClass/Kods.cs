@@ -10,16 +10,30 @@ namespace _6_AbstractClass
     public abstract class Personel
     {
         public string Adi { get; set; }
+
+        // metod geriye değer döndüğü için bu metodun gövdesi yazılıp return ifadesini kullanmak zorundayız...
+        //public string KimeBagli()
+        //{
+        //}
+
+        // abstract üyelerin gövdesi olamaaz.
+        public abstract string KimeBagli(); 
     }
 
     public class Yazilimci : Personel
     {
-
+        public override string KimeBagli()
+        {
+            return "Bilişim Teknolojileri";
+        }
     }
 
     public class Muhasebeci : Personel
     {
-
+        public override string KimeBagli()
+        {
+            return "Finans";
+        }
     }
     // sealed class ile işaretlenen sınıftan miras verilemez..
     public sealed class Departman
